@@ -1,0 +1,27 @@
+  <template>
+    <div class="swiper-slide"></div>
+  </template>
+  <script>
+  export default {
+   name: 'SwiperSlide'
+     }
+  </script>
+  <style lang='scss' scoped>
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  </style>
